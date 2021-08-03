@@ -9,7 +9,6 @@ class Course(models.Model):
     
     name = fields.Char(string='Title', required=True)
     description = fields.Text(string='Description')
-    
     level = fields.Selection(string='Level', selection=[('beginner', 'Beginner'), ('intermediate', 'Intermediate'), ('advanced', 'Advanced')])
     isbn = fields.Char(string='ISBN')
     authors = fields.Char(string='Authors')
