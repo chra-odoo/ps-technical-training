@@ -14,3 +14,4 @@ class Book(models.Model):
     year_of_edition = fields.Char(string='Year of Edition')
     genre = fields.Char(string='Genre')
     editors = fields.Char(string='Editors')
+    note = fields.Text(string='Text')
