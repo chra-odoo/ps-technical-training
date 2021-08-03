@@ -41,5 +41,9 @@
             <field name="name">Book 5</field>
             <field name="authors">Author 1</field>
         </record>
+        <record model="academy.book" id="book_6">
+            <field name="name">Book 6</field>
+            <field name="authors">Author 1</field>
+        </record>
     </data>
 </odoo>
