@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding="utf-8"?>
 <odoo>
-    <data>
+    <data noupdate="0">
+        
         <record model="academy.course" id="erp_101">
             <field name="name">ERP 101</field>
             <field name="description">Learn ERP Systems</field>
@@ -41,8 +42,8 @@
             <field name="name">Book 5</field>
             <field name="authors">Author 1</field>
         </record>
-        <record model="academy.book" id="book_6">
-            <field name="name">Book 6</field>
+        <record model="academy.book" id="book_7">
+            <field name="name">Book 7</field>
             <field name="authors">Author 1</field>
         </record>
     </data>
