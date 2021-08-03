@@ -14,7 +14,12 @@
     'category': 'Training',
     'version': '0.1',
     'depends': ['base'],
-    'data': ['views/course_views.xml'],
-    'demo': ['demo/academy_demo.xml',
-            'demo/academy_demo2.xml'],
+    'data': [
+                'views/course_views.xml',
+                'views/book_views.xml'
+            ],
+    'demo': [
+                'demo/academy_demo.xml',
+                'demo/academy_demo2.xml'
+            ],
 }
