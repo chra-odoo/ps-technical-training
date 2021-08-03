@@ -15,4 +15,4 @@ class Course(models.Model):
     year_of_edition = fields.Char(string='Year of Edition')
     genre = fields.Char(string='Genre')
     editors = fields.Char(string='Editors')
-    
+    active = fields.Boolean(string="Active")
