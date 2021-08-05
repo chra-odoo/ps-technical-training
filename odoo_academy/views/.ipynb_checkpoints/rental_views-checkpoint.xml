@@ -35,6 +35,7 @@
             </field>
         </record>
         
+        <!-- FIX ME
         <record model="ir.ui.view" id="rental_view_map">
             <field name="name">rental.rental.map</field>
             <field name="model">rental.rental</field>
@@ -44,6 +45,7 @@
                 </map>
             </field>
         </record>
+        -->
         
     </data>
 </odoo>
