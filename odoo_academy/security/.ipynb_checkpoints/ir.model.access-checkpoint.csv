@@ -5,3 +5,4 @@ books_librarian,books librarian,model_academy_book,group_books_librarian,1,1,1,1
 books_customer,books customer,model_academy_book,group_books_customer,1,0,0,0
 session_admin,session admin,model_academy_session,group_academy_admin,1,1,1,1
 session_read_all,session read all,model_academy_session,,1,0,0,0
+rental_admin,rental admin,model_rental_rental,,1,1,1,1
