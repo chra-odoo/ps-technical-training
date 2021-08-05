@@ -27,7 +27,5 @@
                 'views/rental_views.xml'
             ],
     'demo': [
-                'demo/academy_demo.xml',
-                'demo/academy_demo2.xml'
             ],
 }
