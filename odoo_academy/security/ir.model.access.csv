@@ -3,3 +3,5 @@ course_admin,course admin,model_academy_course,group_academy_admin,1,1,1,1
 course_read_all,course read all,model_academy_course,,1,0,0,0
 books_librarian,books librarian,model_academy_book,group_books_librarian,1,1,1,1
 books_customer,books customer,model_academy_book,group_books_customer,1,0,0,0
+session_admin,session admin,model_academy_session,group_academy_admin,1,1,1,1
+session_read_all,session read all,model_academy_session,,1,0,0,0

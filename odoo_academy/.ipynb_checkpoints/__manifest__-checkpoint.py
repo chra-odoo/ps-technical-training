@@ -22,6 +22,7 @@
                 'views/books_menuitems.xml',
                 'views/course_views.xml',
                 'views/book_views.xml',
+                'views/session_views.xml'
             ],
     'demo': [
                 'demo/academy_demo.xml',
