@@ -13,7 +13,7 @@
     'website': 'https://www.odoo.com',
     'category': 'Training',
     'version': '0.1',
-    'depends': ['base'],
+    'depends': ['base', 'web_map'],
     'data': [
                 'security/academy_security.xml',
                 'security/books_security.xml',
