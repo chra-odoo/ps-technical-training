@@ -14,8 +14,20 @@
             </field>
         </record>
         
+        <record model="ir.actions.act_window" id="book_copy_list_action">
+            <field name="name">Book Copies</field>
+            <field name="res_model">academy.book.copy</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create the first book copy
+                </p>
+            </field>
+        </record>
+        
         <menuitem name="Library" id="menu_books" sequence="1"/>
         
         <menuitem id="menu_book_submenu" name="Books" parent="menu_books" sequence="2" action="book_list_action"/>
+        <menuitem id="menu_book_copy_submenu" name="Book Copies" parent="menu_books" sequence="3" action="book_copy_list_action"/>
     </data>
 </odoo>

@@ -31,6 +31,36 @@
             </field>
         </record>
         
+        <record model="ir.ui.view" id="book_copy_view_form">
+            <field name="name">academy.book.copy.form</field>
+            <field name="model">academy.book.copy</field>
+            <field name="arch" type="xml">
+                <form string="Book Copy Form">
+                    <sheet>
+                        <h1><field name="name"/></h1>
+                        <group>
+                            <group>
+                                <field name="book_id"/>
+                                <field name="description"/>
+                                <field name="isbn"/>
+                                <field name="authors"/>
+                            </group>
+                            <group>
+                                <field name="genre"/>
+                                <field name="editors"/>
+                                <field name="year_of_edition"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Notes">
+                                <field name="note"/>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
         <record model="ir.ui.view" id="book_view_search">
             <field name="name">academy.book.search</field>
             <field name="model">academy.book</field>
