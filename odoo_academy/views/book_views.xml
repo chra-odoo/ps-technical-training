@@ -41,6 +41,7 @@
                         <group>
                             <group>
                                 <field name="book_id"/>
+                                <field name="internal_ref"/>
                                 <field name="description"/>
                                 <field name="isbn"/>
                                 <field name="authors"/>

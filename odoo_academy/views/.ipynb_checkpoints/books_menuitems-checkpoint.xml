@@ -28,6 +28,7 @@
         <menuitem name="Library" id="menu_books" sequence="1"/>
         
         <menuitem id="menu_book_submenu" name="Books" parent="menu_books" sequence="2" action="book_list_action"/>
+        
         <menuitem id="menu_book_copy_submenu" name="Book Copies" parent="menu_books" sequence="3" action="book_copy_list_action"/>
     </data>
 </odoo>
