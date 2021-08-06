@@ -12,4 +12,4 @@ class BookCopy(models.Model):
     
     internal_ref = fields.Char(string='Internal Reference')
     
-    book_id = fields.Many2one(comodel_name="academy.book", string="Book", required=True, on)
+    book_id = fields.Many2one(comodel_name="academy.book", string="Book", required=True, ondelete="cascade")
