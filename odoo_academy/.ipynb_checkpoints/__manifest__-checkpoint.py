@@ -13,7 +13,7 @@
     'website': 'https://www.odoo.com',
     'category': 'Training',
     'version': '1.0',
-    'depends': ['base', 'web_map'],
+    'depends': ['web_map', 'sale'],
     'data': [
                 'security/academy_security.xml',
                 'security/books_security.xml',
@@ -24,7 +24,8 @@
                 'views/course_views.xml',
                 'views/book_views.xml',
                 'views/session_views.xml',
-                'views/rental_views.xml'
+                'views/rental_views.xml',
+                'views/sale_views_inherit.xml'
             ],
     'demo': [
             ],
