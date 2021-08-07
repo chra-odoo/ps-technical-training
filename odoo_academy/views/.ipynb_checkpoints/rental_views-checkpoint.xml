@@ -16,7 +16,12 @@
                             </group>
                             <notebook>
                                 <page string="Books">
-                                    <field name="book_ids"/>
+                                    <field name="book_ids">
+                                        <tree>
+                                            <field name="name"/>
+                                            <field name="internal_ref"/>
+                                        </tree>
+                                    </field>
                                 </page>
                             </notebook>
                     </sheet>
